@@ -1,8 +1,10 @@
 We as programmers need frequently to swap the contents of two variables, and the procedure is simple just 
 make a temporary variable and do the procedure as follows:
+
     temp = var1;
     var1 = var2;
     var2 = temp;
+    
 But the process depends on the datatype of the variables and you may end with having multiple functions and 
 each function deals with a single datatype and this looks like time to waste.
 
